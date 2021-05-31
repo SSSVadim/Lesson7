@@ -96,8 +96,6 @@ class Car {
 		}
 		this.#currentFuelVolume -= fuelNeeded;
 		this.#mileage += distance
-		console.log(`Дистанция ${distance}`);					
-		console.log(`Требуется топлива ${fuelNeeded}`);			
 	}
 
 
